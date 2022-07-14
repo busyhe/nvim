@@ -1,0 +1,32 @@
+{
+  "name": "nvim",
+  "version": "0.0.1",
+  "description": "busyhe neovim config",
+  "repository": "git@github.com:busyhe/nvim.git",
+  "author": "busyhe <busyhe@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "postinstall": "husky install",
+    "prepack": "pinst --disable",
+    "postpack": "pinst --enable"
+  },
+  "bugs": {
+    "url": "https://github.com/busyhe/nvim/issues"
+  },
+  "homepage": "https://github.com/wfe-cli/wfepinst-cli#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
+    "pinst": "^3.0.0",
+    "semantic-release": "^19.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
