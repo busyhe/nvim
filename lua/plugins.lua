@@ -72,6 +72,8 @@ packer.startup({
         use('b0o/schemastore.nvim')
         -- TypeScript增强
         use({ 'jose-elias-alvarez/nvim-lsp-ts-utils', requires = 'nvim-lua/plenary.nvim' })
+        -- git
+        use({ "lewis6991/gitsigns.nvim" })
         -- ui
         use('onsails/lspkind-nvim')
         use('tami5/lspsaga.nvim')
