@@ -4,12 +4,6 @@ if not status then
   return
 end
 
-db.custom_footer = {
-  "",
-  "",
-  "https://github.com/busyhe/nvim",
-}
-
 db.custom_center = {
   {
     icon = "  ",
@@ -72,7 +66,6 @@ db.custom_header = {
   [[██████╔╝╚██████╔╝███████║   ██║   ██║  ██║███████╗]],
   [[╚═════╝  ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝]],
   [[                                              ]],
-  [[             [ version : 1.0.0 ]              ]],
   [[]],
   [[]],
 }
