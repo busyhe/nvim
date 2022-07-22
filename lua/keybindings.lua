@@ -33,10 +33,10 @@ map('n', '<A-j>', '<C-w>j', opt)
 map('n', '<A-k>', '<C-w>k', opt)
 map('n', '<A-l>', '<C-w>l', opt)
 -- <leader> + hjkl 窗口之间跳转
-map("n", "<leader>h", "<C-w>h", opt)
-map("n", "<leader>j", "<C-w>j", opt)
-map("n", "<leader>k", "<C-w>k", opt)
-map("n", "<leader>l", "<C-w>l", opt)
+map('n', '<leader>h', '<C-w>h', opt)
+map('n', '<leader>j', '<C-w>j', opt)
+map('n', '<leader>k', '<C-w>k', opt)
+map('n', '<leader>l', '<C-w>l', opt)
 -- 左右比例控制
 map('n', '<C-Left>', ':vertical resize -2<CR>', opt)
 map('n', '<C-Right>', ':vertical resize +2<CR>', opt)
@@ -51,18 +51,18 @@ map('n', '<C-Up>', ':resize -2<CR>', opt)
 map('n', 's=', '<C-w>=', opt)
 
 -- Terminal相关
-map("n", "st", ":sp | terminal<CR>", opt)
-map("n", "stv", ":vsp | terminal<CR>", opt)
+map('n', 'st', ':sp | terminal<CR>', opt)
+map('n', 'stv', ':vsp | terminal<CR>', opt)
 -- Esc 回 Normal 模式
-map("t", "<Esc>", "<C-\\><C-n>", opt)
-map("t", "<A-h>", [[ <C-\><C-N><C-w>h ]], opt)
-map("t", "<A-j>", [[ <C-\><C-N><C-w>j ]], opt)
-map("t", "<A-k>", [[ <C-\><C-N><C-w>k ]], opt)
-map("t", "<A-l>", [[ <C-\><C-N><C-w>l ]], opt)
-map("t", "<leader>h", [[ <C-\><C-N><C-w>h ]], opt)
-map("t", "<leader>j", [[ <C-\><C-N><C-w>j ]], opt)
-map("t", "<leader>k", [[ <C-\><C-N><C-w>k ]], opt)
-map("t", "<leader>l", [[ <C-\><C-N><C-w>l ]], opt)
+map('t', '<Esc>', '<C-\\><C-n>', opt)
+map('t', '<A-h>', [[ <C-\><C-N><C-w>h ]], opt)
+map('t', '<A-j>', [[ <C-\><C-N><C-w>j ]], opt)
+map('t', '<A-k>', [[ <C-\><C-N><C-w>k ]], opt)
+map('t', '<A-l>', [[ <C-\><C-N><C-w>l ]], opt)
+map('t', '<leader>h', [[ <C-\><C-N><C-w>h ]], opt)
+map('t', '<leader>j', [[ <C-\><C-N><C-w>j ]], opt)
+map('t', '<leader>k', [[ <C-\><C-N><C-w>k ]], opt)
+map('t', '<leader>l', [[ <C-\><C-N><C-w>l ]], opt)
 
 -- visual模式下缩进代码
 map('v', '<', '<gv', opt)
@@ -132,6 +132,8 @@ map('n', '<leader>bc', ':BufferLinePickClose<CR>', opt)
 map('n', '<C-p>', ':Telescope find_files<CR>', opt)
 -- 全局搜索
 map('n', '<C-f>', ':Telescope live_grep<CR>', opt)
+--·全局搜索快捷键
+map('n', '<C-k>', ':Telescope keymaps<CR>', opt)
 -- Telescope 列表中 插入模式快捷键
 pluginKeys.telescopeList = {
     i = {

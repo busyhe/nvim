@@ -65,6 +65,10 @@ packer.startup({
         use('hrsh7th/cmp-cmdline') -- { name = 'cmdline' }
         -- 常见编程语言代码段
         use('rafamadriz/friendly-snippets')
+        -- wakatime
+        use('wakatime/vim-wakatime')
+        -- github 补全
+        use('github/copilot.vim')
         -- 代码格式化
         --use("mhartington/formatter.nvim")
         use({ 'jose-elias-alvarez/null-ls.nvim', requires = 'nvim-lua/plenary.nvim' })
