@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/busyhe/nvim/compare/v1.0.0...v1.1.0) (2022-07-22)
+
+
+### Features
+
+* add github/copilot.vim wakatime/vim-wakatime & add keymaps Shortcut key ([61e8102](https://github.com/busyhe/nvim/commit/61e81022edf2d8a6361b424569037ad45692df9b))
+
 # 1.0.0 (2022-07-14)
 
 
