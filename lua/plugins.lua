@@ -73,7 +73,7 @@ packer.startup({
         -- TypeScript增强
         use({ 'jose-elias-alvarez/nvim-lsp-ts-utils', requires = 'nvim-lua/plenary.nvim' })
         -- git
-        use({ "lewis6991/gitsigns.nvim" })
+        use({ 'lewis6991/gitsigns.nvim' })
         -- ui
         use('onsails/lspkind-nvim')
         use('tami5/lspsaga.nvim')
@@ -85,9 +85,9 @@ packer.startup({
         use({ 'neovim/nvim-lspconfig' })
         --------------------- colorschemes --------------------
         -- tokyonight
-        -- use("folke/tokyonight.nvim")
+        use('folke/tokyonight.nvim')
         -- nord
-        use('shaunsingh/nord.nvim')
+        -- use('shaunsingh/nord.nvim')
         -------------------------------------------------------
     end,
     config = {
@@ -105,8 +105,8 @@ packer.startup({
 
 -- 每次保存 plugins.lua 自动安装插件
 pcall(
-  vim.cmd,
-  [[
+    vim.cmd,
+    [[
     augroup packer_user_config
     autocmd!
     autocmd BufWritePost plugins.lua source <afile> | PackerSync
