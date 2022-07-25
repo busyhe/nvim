@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/busyhe/nvim/compare/v1.1.0...v1.1.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* remove github copilot ([fa4b456](https://github.com/busyhe/nvim/commit/fa4b456a0804b6588ee72d5a2190ce724c219e5c))
+
 # [1.1.0](https://github.com/busyhe/nvim/compare/v1.0.0...v1.1.0) (2022-07-22)
 
 
