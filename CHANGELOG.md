@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/busyhe/nvim/compare/v1.1.1...v1.2.0) (2022-07-26)
+
+
+### Features
+
+* add github copilot plugin ([38a218b](https://github.com/busyhe/nvim/commit/38a218bee5a968811e66fec7a430b40ba7fa825c))
+
 ## [1.1.1](https://github.com/busyhe/nvim/compare/v1.1.0...v1.1.1) (2022-07-25)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "nvim",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "busyhe neovim config",
   "repository": "git@github.com:busyhe/nvim.git",
   "author": "busyhe <busyhe@qq.com>",
