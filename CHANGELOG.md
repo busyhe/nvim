@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/busyhe/nvim/compare/v1.2.0...v1.2.1) (2022-10-25)
+
+
+### Bug Fixes
+
+* cmp.update_capabilities -> cmp.default_capabilities [#44](https://github.com/busyhe/nvim/issues/44) ([d340251](https://github.com/busyhe/nvim/commit/d34025151fb4b7611dbaa6d6ff4f45e6a4fd9d4e))
+* **npm:** npm register ([1933d8c](https://github.com/busyhe/nvim/commit/1933d8ca6f2e9964f9a14907251b7727d3aa5506))
+
 # [1.2.0](https://github.com/busyhe/nvim/compare/v1.1.1...v1.2.0) (2022-07-26)
 
 
