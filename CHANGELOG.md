@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/busyhe/nvim/compare/v1.2.1...v1.2.2) (2023-07-31)
+
+
+### Bug Fixes
+
+* **lua plugin:** some error ([0acfb9b](https://github.com/busyhe/nvim/commit/0acfb9b521cec03e171551299de6d8d2ceffbb41))
+
 ## [1.2.1](https://github.com/busyhe/nvim/compare/v1.2.0...v1.2.1) (2022-10-25)
 
 
