@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/busyhe/nvim/compare/v1.2.2...v1.3.0) (2025-03-24)
+
+
+### Features
+
+* update indent-blankline plugin version ([ebf51e0](https://github.com/busyhe/nvim/commit/ebf51e0acbc4535277eac629be5ac590b6708bc4))
+
 ## [1.2.2](https://github.com/busyhe/nvim/compare/v1.2.1...v1.2.2) (2023-07-31)
 
 
